@@ -184,7 +184,9 @@ li{
 pre code {
     background-color:#fff;
     color:#000;
-    border: 1px solid #999;
-    display: block;
+    /* border: 1px solid #999; */
+    display: inline-block;
+    height:auto;
     padding: 10px;
+    box-sizing: border-box;
   }
