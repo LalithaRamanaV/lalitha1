@@ -181,3 +181,10 @@ li{
         padding-left: 0;
     }
 }
+pre code {
+    background-color:#fff;
+    color:#000;
+    border: 1px solid #999;
+    display: block;
+    padding: 10px;
+  }
