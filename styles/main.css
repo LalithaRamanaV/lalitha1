@@ -125,6 +125,16 @@ li{
     padding: 0.5em 1em;
     align-items: center;
 }
+.card--techstack a{
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    align-items: center;
+    font-weight:500;
+}
+.card--techstack a:hover{
+    font-weight:900;
+    
+}
 
 .card--project{
     padding-top: 1em;
