@@ -90,13 +90,13 @@ li{
 
 #socials--list{
     display: flex;
-    justify-content: space-between;
-    column-gap: 1em;
+    justify-content:space-between;
+    column-gap:1em;
     flex-wrap: wrap;
 }
 #socials--lists{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     column-gap:1em ;
     flex-wrap: wrap;
 
