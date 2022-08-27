@@ -38,7 +38,7 @@ body{
 
 p, span, li{
     color: var(--secondaryTextColor);
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 a{
@@ -94,18 +94,37 @@ li{
     column-gap: 1em;
     flex-wrap: wrap;
 }
+#socials--lists{
+    display: flex;
+    justify-content: space-between;
+    column-gap:1em ;
+    flex-wrap: wrap;
+
+}
+
 
 #socials--list a{
     font-weight: 300;
     color: var(--secondaryTextColor);
-    font-size: 0.9em;
+    font-size: 1em;
+    transition: 0.3s;
+}
+#socials--lists a{
+    font-weight: 500;
+    color: var(--secondaryTextColor);
+    font-size: 1em;
     transition: 0.3s;
 }
 
 #socials--list a:hover{
     font-weight: 100;
     color: var(--mainLinkColor);
-    font-size: 0.9em;
+    font-size: 1em;
+}
+#socials--lists a:hover{
+    font-weight: 600;
+    color: var(--mainLinkColor);
+    font-size: 1em;
 }
 
 #qualifications--list{
@@ -165,6 +184,10 @@ li{
     height: 1px;
 }
 
+h4{
+    align-items: center;
+    text-align: center;
+}
 
 @media(max-width:600px){
 
