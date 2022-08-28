@@ -14,13 +14,20 @@
     --mainLinkColor-dark:#0092cc;
     --mainBorderColor-dark:#2b3031;
     --mainBgColor-dark:#131415;
+
+    
+    --mainTextColor:var(--mainTextColor-light); 
+    --secondaryTextColor:(--secondaryTextColor-light);
+    --mainLinkColor:var(--mainLinkColor-light);
+    --mainBorderColor:var(--mainBorderColor-light);
+    --mainBgColor:var(--mainBgColor-light);
+
     
     --mainTextColor:var(--mainTextColor-dark);
     --secondaryTextColor:var(--secondaryTextColor-dark);
     --mainLinkColor:var(--mainLinkColor-dark);
     --mainBorderColor:var(--mainBorderColor-dark);
     --mainBgColor:var(--mainBgColor-dark);
-
 }
 
 
@@ -38,7 +45,7 @@ body{
 
 p, span, li{
     color: var(--secondaryTextColor);
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 a{
@@ -90,7 +97,9 @@ li{
 
 #socials--list{
     display: flex;
-    justify-content:space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 22px;
     column-gap:1em;
     flex-wrap: wrap;
 }
@@ -106,13 +115,13 @@ li{
 #socials--list a{
     font-weight: 300;
     color: var(--secondaryTextColor);
-    font-size: 1em;
+    font-size: 0.9em;
     transition: 0.3s;
 }
 #socials--lists a{
     font-weight: 500;
     color: var(--secondaryTextColor);
-    font-size: 1em;
+    font-size: 0.9em;
     transition: 0.3s;
 }
 
@@ -216,7 +225,7 @@ h4{
         padding-left: 0;
     }
 }
-pre code {
+  pre code {
     background-color:#fff;
     color:#000;
     /* border: 1px solid #999; */
@@ -224,4 +233,4 @@ pre code {
     height:auto;
     padding: 10px;
     box-sizing: border-box;
-  }
+   }
