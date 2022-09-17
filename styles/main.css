@@ -15,12 +15,12 @@
     --mainBorderColor-dark:#2b3031;
     --mainBgColor-dark:#131415;
 
-       
     --mainTextColor:var(--mainTextColor-light); 
-    --secondaryTextColor:(--secondaryTextColor-light);
+    --secondaryTextColor:var(--secondaryTextColor-light);
     --mainLinkColor:var(--mainLinkColor-light);
     --mainBorderColor:var(--mainBorderColor-light);
     --mainBgColor:var(--mainBgColor-light);
+   
     
     --mainTextColor:var(--mainTextColor-dark);
     --secondaryTextColor:var(--secondaryTextColor-dark);
@@ -28,7 +28,7 @@
     --mainBorderColor:var(--mainBorderColor-dark);
     --mainBgColor:var(--mainBgColor-dark);
 
-       
+     
 }
 
 
@@ -39,9 +39,18 @@
     color: var(--mainTextColor);
     
 }
+html {
+    scroll-behavior: smooth;
+  }
+  
 
 body{
     background-color: var(--mainBgColor);            
+}
+#span-head{
+    font-size:0.7em;
+    color: var(--mainTextColor);
+    
 }
 
 p, span, li{
@@ -85,11 +94,10 @@ li{
     line-height: 1em;
 }
 
-#profile-pic{
-    width: 150px;
-    height: 150px;
+#pic{
+    width: 100%;
+    height: auto;
     object-fit: cover;
-    border-radius: 50%;
 }
 
 #email{
@@ -235,3 +243,5 @@ h4{
     padding: 10px;
     box-sizing: border-box;
    }
+
+
