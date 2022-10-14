@@ -5,6 +5,7 @@
     --secondaryTextColor-light:rgb(51 51 51);
     --mainLinkColor-light:#0da2b8;
     --mainLinkColor-light:#0092cc;
+    --mainLinkColor-light:#3195ff;
     --mainBorderColor-light:rgb(218, 218, 218);
     --mainBgColor-light:rgb(249, 250,251);
 
@@ -12,14 +13,17 @@
     --secondaryTextColor-dark:#adb0b1;
     --mainLinkColor-dark:rgb(30, 190,214);
     --mainLinkColor-dark:#0092cc;
+    --mainLinkColor-dark:#3195ff;
     --mainBorderColor-dark:#2b3031;
     --mainBgColor-dark:#131415;
-
+    
+    
     --mainTextColor:var(--mainTextColor-light); 
     --secondaryTextColor:var(--secondaryTextColor-light);
     --mainLinkColor:var(--mainLinkColor-light);
     --mainBorderColor:var(--mainBorderColor-light);
     --mainBgColor:var(--mainBgColor-light);
+
    
     
     --mainTextColor:var(--mainTextColor-dark);
@@ -27,8 +31,6 @@
     --mainLinkColor:var(--mainLinkColor-dark);
     --mainBorderColor:var(--mainBorderColor-dark);
     --mainBgColor:var(--mainBgColor-dark);
-
-     
 }
 
 
@@ -115,8 +117,8 @@ li{
 #socials--lists{
     display: flex;
     justify-content: space-around;
-    column-gap:1em ;
-    flex-wrap: wrap;
+    column-gap:0.5em ;
+    flex-wrap: wrap; 
 
 }
 
@@ -128,9 +130,9 @@ li{
     transition: 0.3s;
 }
 #socials--lists a{
-    font-weight: 500;
+    font-weight: 600;
     color: var(--secondaryTextColor);
-    font-size: 0.9em;
+    font-size: 1em;
     transition: 0.3s;
 }
 
