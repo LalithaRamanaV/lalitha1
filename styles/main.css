@@ -251,6 +251,7 @@ h4{
 .main{
     max-width: 1200px;
     margin: 0 auto;
+    
   }
   
   .btn {
@@ -262,14 +263,17 @@ h4{
     cursor: pointer;
     background: #131415;
     border:none;
-    color:#adb0b1
+    color:#adb0b1;
+    background-color: #2b3031;
   }
   
   .btn:hover {
     font-weight: 600;
+    color:#0092cc;
   }
   
   .cards {
+   
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -302,11 +306,14 @@ h4{
     flex-direction: column;
     overflow: hidden;
   }
+ 
   
   .card_content {
     padding: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background-color:#131415;
+    background-color: #2b3031;
+    
   }
   
   .card_title {
