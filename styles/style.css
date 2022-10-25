@@ -117,7 +117,7 @@ li{
 }
 #socials--lists{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     column-gap:0.5em ;
     flex-wrap: wrap; 
 
