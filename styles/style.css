@@ -332,3 +332,24 @@ h4{
     margin-bottom: 1.25rem;    
     font-weight: 400;
   }
+  /* footer and footer icons */
+  .socials {
+    
+    position: relative;
+    display: table;
+    margin :0 auto;
+  }
+  .socicon {
+    height: 50px;
+    width: 50px;
+  }
+  footer {
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+  }
+  @media screen and (max-width: 420px) {
+    .footer{
+        font-size: small;
+      }
+  }
