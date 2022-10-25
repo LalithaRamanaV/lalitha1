@@ -78,14 +78,14 @@ li{
 }
 
 .section--page{
-    padding-top: 1em; 
+    padding-top: 1em;
     padding-bottom: 1em;
 }
 
 #wrapper--hero{
     display: flex;
     align-items: center;
-    gap: 4em; 
+    gap: 4em;
 }
 
 #bio, a{
@@ -179,7 +179,7 @@ li{
 .card--project{
     padding-top: 1em;
     padding-bottom: 1em;
-    border-top: 1px solid var(--mainBorderColor); 
+    border-top: 1px solid var(--mainBorderColor);
 }
 
 .card--project a{
@@ -194,7 +194,7 @@ li{
 }
 
 .card--work-history{
-    /* border-left: 1px solid var(--mainBorderColor); */
+    border-left: 1px solid var(--mainBorderColor);
     margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
@@ -249,13 +249,13 @@ h4{
 
 /* project cards */
 .main{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     
   }
   
   .btn {
-    font-size: 16px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 400;
     display: block;
@@ -264,7 +264,7 @@ h4{
     background: #131415;
     border:none;
     color:#adb0b1;
-    /* background-color: #2b3031; */
+    background-color: #2b3031;
   }
   
   .btn:hover {
@@ -273,13 +273,12 @@ h4{
   }
   
   .cards {
+   
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     margin: 0;
     padding: 0;
-    width:700px;
-    height:auto
   }
   
   .cards_item {
@@ -300,9 +299,9 @@ h4{
   }
   
   .card {
-    /* background-color: #2b3031; */
+    background-color: #2b3031;
     border-radius: 0.25rem;
-    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    /* box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25); */
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -311,9 +310,10 @@ h4{
   
   .card_content {
     padding: 1rem;
-    border:1px solid #0da2b8;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color:#131415;
     background-color: #2b3031;
-    background-color:#131415; 
+    
   }
   
   .card_title {
@@ -328,50 +328,7 @@ h4{
   .card_text {
     color: #adb0b1;
     font-size: 0.875rem;
-    font-size:16px;
     line-height: 1.5;
-    margin-bottom: 1rem;    
+    margin-bottom: 1.25rem;    
     font-weight: 400;
   }
-
-  /* navbar */
-  nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 0.1em;
-    align-items: center;
-    text-align: center;
-  }
-  
-  nav a{
-    color:#adb0b1;
-    font-size: 18px;
-    text-align: center;
-  }
-  
-  #menu--container{
-    display: flex;
-    align-items: center;
-    padding: 14px;
-    text-align: center;
-   
-  
-  }
-  
-  #menu--container a {
-    margin: 0 1em;
-   
-  }
-  
-  #logo{
-    width: 50px;
-  }
-  
-  
-  #github--logo{
-    width: 60px;
-  }
-  
-  
- 
