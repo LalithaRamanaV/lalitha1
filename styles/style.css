@@ -310,7 +310,7 @@ h4{
   
   .card_content {
     padding: 1rem;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
     background-color:#131415;
     background-color: #2b3031;
     
@@ -334,7 +334,6 @@ h4{
   }
   /* footer and footer icons */
   .socials {
-    
     position: relative;
     display: table;
     margin :0 auto;
