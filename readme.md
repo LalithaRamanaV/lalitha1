@@ -1,6 +1,8 @@
-# This is my personal portfolio website
+# This is my personal portfolio
 
-Hello I am Lalitha Vadavalli an aspiring developer.Interested in designing and developing web applications.Currently diving-deep into the MERN Stack.This is my personal portfolio.Live demo is below
+
+* Hello I am Lalitha Vadavalli an aspiring developer interested in designing and developing web applications .My portfolio is created using HTML and CSS
+* [Demo](https://lalitha.netlify.app/)
 
 
 
