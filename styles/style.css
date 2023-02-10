@@ -209,6 +209,30 @@ h4{
     align-items: center;
     text-align: center;
 }
+/* technologies */
+#skills{
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+h2{
+    text-align: left;
+}
+.skills-wrapper img {
+    padding: 1.25rem;
+  }
+  
+  .icon {
+    width: 6rem;
+    height: 6rem;
+  }
+  @media screen and (max-width: 720px) {
+    .icon {
+        width: 5.875rem;
+        height: 5.25rem;
+      }
+  }
 
 @media(max-width:600px){
 
