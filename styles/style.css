@@ -228,8 +228,8 @@ h2{
   }
   @media screen and (max-width: 720px) {
     .icon {
-        width: 4rem;
-        height: 4rem;
+        width: 4.5rem;
+        height: 4.5rem;
       }
   }
 
