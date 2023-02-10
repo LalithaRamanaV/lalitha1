@@ -230,6 +230,8 @@ h2{
     .icon {
         width: 5rem;
         height: 5rem;
+        columns: 3;
+        overflow: hidden;
       }
   }
 
