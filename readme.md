@@ -1,8 +1,20 @@
-# This is my personal portfolio
+
+# Personal Portfolio
+
+This is my personal portfolio created using HTML and CSS
 
 
-* Hello I am Lalitha Vadavalli an aspiring developer interested in designing and developing web applications .My portfolio is created using HTML and CSS
-* [Demo](https://lalitha.netlify.app/)
+## 🔗 Link
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://lalitha.netlify.app)
+
+
+
+## Tech Stack
+
+**Client:** HTML, CSS
+
+
+
 
 
 
