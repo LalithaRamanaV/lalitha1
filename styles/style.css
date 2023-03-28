@@ -194,7 +194,7 @@ li{
 }
 
 .card--work-history{
-    border-left: 1px solid var(--mainBorderColor);
+    /* border-left: 1px solid var(--mainBorderColor); */
     margin-top: 3em;
     margin-bottom: 3em;
     padding-left: 2em;
